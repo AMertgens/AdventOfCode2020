@@ -37,7 +37,7 @@ def meta_solve(Input):
     fixing = True
     Input = copy.deepcopy(Input)
     while fixing:
-        time.sleep(0.1)
+        
         test = copy.deepcopy(Input)
         instr = test[index][0]
         if instr == "nop":
